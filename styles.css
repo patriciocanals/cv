@@ -238,11 +238,11 @@ a {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-.button-43 a:visited {
+.buttons a:visited {
     text-decoration: none;
     color: white;
 }
-.button-43 a {
+.buttons a {
     text-decoration: none;
     color: white;
 }
