@@ -216,7 +216,7 @@ p {
     }
 }
 a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 .schoolLink {
     color: white;
@@ -249,9 +249,50 @@ a {
 .button-43:hover {
   background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
 }
-
+.skills .qr {
+    display: none;
+}
 @media (min-width: 768px) {
   .button-43 {
     padding: 1rem 2rem;
   }
 }
+
+@media print {
+    .button-43 {
+        display: none;
+    }
+    .container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    grid-template-columns: 1fr 2fr;
+    }
+    .about p {
+        font-size: 12px;
+    }
+.container h2 {
+    font-size: 15px;
+}
+.email-text {
+    font-size: 14px;
+}
+.container h4  {
+    font-size: 12px;
+}
+.skills .box {
+    display: none;
+}
+.skills .qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education a {
+    display: none;
+}
+.right_side a {
+    display: none;
+}
+  }
