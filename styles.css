@@ -238,11 +238,11 @@ a {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-.button-43 a:visited {
+.buttons a:visited {
     text-decoration: none;
     color: white;
 }
-.button-43 a {
+.buttons a {
     text-decoration: none;
     color: white;
 }
@@ -257,42 +257,3 @@ a {
     padding: 1rem 2rem;
   }
 }
-
-@media print {
-    .button-43 {
-        display: none;
-    }
-    .container {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    grid-template-columns: 1fr 2fr;
-    }
-    .about p {
-        font-size: 12px;
-    }
-.container h2 {
-    font-size: 15px;
-}
-.email-text {
-    font-size: 14px;
-}
-.container h4  {
-    font-size: 12px;
-}
-.skills .box {
-    display: none;
-}
-.skills .qr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.education a {
-    display: none;
-}
-.right_side a {
-    display: none;
-}
-  }
