@@ -259,8 +259,12 @@ a {
 }
 
 @media print {
-    .button-43 {
+    .button-43 .title2 {
         display: none;
+    }
+    .qr {
+        width: 30px;
+        height: 30px;
     }
     .container {
     position: relative;
