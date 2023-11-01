@@ -289,7 +289,16 @@ a {
         display: none;
     }
     .skills .qr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title2 {
         display: none;
+    }
+    .qr .img {
+        width: 30px;
+        height: 30px;
     }
     .education a {
         display: none;
